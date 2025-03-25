@@ -13,7 +13,7 @@ See [UserCategoryCacheContext.php](/src/Cache/Context/UserCategoryCacheContext.p
 Used [ddev-varnish](https://github.com/ddev/ddev-varnish)
 Installed [varnish purge module](https://www.drupal.org/project/varnish_purge)
 Added a purger
-Updated the VCL config and added the current IP
+Updated the VCL config and added the current IP [VCL config](./default.vcl)
 Added custom header `X-Cache` to check Varnish hit and miss
 
 Results:
