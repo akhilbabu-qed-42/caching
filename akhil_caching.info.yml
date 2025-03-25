@@ -1,0 +1,5 @@
+name: 'akhil_caching'
+type: module
+description: 'text'
+package: Custom
+core_version_requirement: ^10 || ^11

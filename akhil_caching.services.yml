@@ -1,0 +1,6 @@
+services:
+  cache_context.user_category:
+    class: Drupal\akhil_caching\Cache\Context\UserCategoryCacheContext
+    arguments: ['@entity_type.manager', '@current_user']
+    tags:
+      - { name: cache.context}
